@@ -124,7 +124,7 @@ endif()
 ########################################################################
 
 include(project_files.cmake)
-
+set(CMAKE_INSTALL_PREFIX "./" CACHE PATH "..." FORCE)
 include_directories(
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/src
